@@ -1,7 +1,5 @@
 # Spotify-Track-Metadata-Analysis
-Spotify Track Data Collector
-
-# This project fetches metadata for Spotify tracks using the Spotify Web API, stores the results in a MySQL database, and visualizes the data using Python. It’s designed for data collection, analysis, and dashboarding on music metadata.
+This project fetches metadata for Spotify tracks using the Spotify Web API, stores the results in a MySQL database, and visualizes the data using Python. It’s designed for data collection, analysis, and dashboarding on music metadata.
 Features
 
     Extract track URLs and fetch details from the Spotify API
@@ -14,11 +12,11 @@ Features
 
 # Project Structure
 File	Description
-spotify_mysql_urls.py	Python script: pulls track data from API and inserts to MySQL
-spotify.py	Python script: fetches, visualizes, and exports track metadata
-spotify_track_data.csv	Example CSV output from data collection
-spotify.sql	MySQL schema, example queries, and aggregations
-track_urls.txt	List of Spotify track URLs to process
+- spotify_mysql_urls.py	Python script: pulls track data from API and inserts to MySQL
+- spotify.py	Python script: fetches, visualizes, and exports track metadata
+- spotify_track_data.csv	Example CSV output from data collection
+- spotify.sql	MySQL schema, example queries, and aggregations
+- track_urls.txt	List of Spotify track URLs to process
 
 # Requirements
 
